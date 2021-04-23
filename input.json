@@ -1,0 +1,17 @@
+{
+  "General_Pipeline.platform": "String (optional, default = \"ont|pb\")",
+  "General_Pipeline.medaka_model": "String (optional, default = \"Available: r941_min_fast, r941_min_high, r941_prom_fast, r941_prom_high, r10_min_high, r941_min_diploid_snp\")",
+  "General_Pipeline.SNPCalling.annovarDB": "String",
+  "General_Pipeline.exon_bed": "String",
+  "General_Pipeline.outdir": "String",
+  "General_Pipeline.SNPCalling.Format_Region.docker_image": "String",
+  "General_Pipeline.SVCalling.grandsvDB": "String",
+  "General_Pipeline.SVCalling.annovarDB": "String",
+  "General_Pipeline.thread": "String (optional, default = \"16\")",
+  "General_Pipeline.reference": "String (optional, default = \"/export/home/zhangsiwen/database/hg19/hg19.fa\")",
+  "General_Pipeline.SVCalling.publicsvDB": "String",
+  "General_Pipeline.fqdir": "String (optional, default = \"fastq_pass\")",
+  "General_Pipeline.capture": "String (optional, default = \"/export/home/zhangsiwen/project/1.DMD/DMD_capture_hg19.bed\")",
+  "General_Pipeline.docker_image": "String",
+  "General_Pipeline.barcode": "String (optional, default = \"barcode.fa\")"
+}
